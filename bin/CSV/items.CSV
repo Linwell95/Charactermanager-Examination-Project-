@@ -1,0 +1,40 @@
+﻿id;name;type;description
+1;Eisenschwert;WEAPON;Ein einfaches, aber zuverlässiges Schwert aus Eisen.
+2;Langbogen des Jägers;WEAPON;Ein gut gearbeiteter Bogen, bevorzugt von Waldläufern.
+3;Kriegshammer der Wache;WEAPON;Ein schwerer Hammer, wie er von Stadtwachen getragen wird.
+4;Flammende Klinge;WEAPON;Eine magische Klinge, die in Flammen lodert.
+5;Lederharnisch;ARMOR;Eine leichte Rüstung aus gehärtetem Leder.
+6;Kettenhemd;ARMOR;Ein robustes Kettenhemd aus Stahlringen.
+7;Helm des Schildträgers;ARMOR;Ein verstärkter Helm, der von Paladinen bevorzugt wird.
+8;Frostmantel;ARMOR;Ein magischer Mantel, der vor Kälte schützt.
+9;Schild des Wächters;WEAPON;Ein schwerer Schild, der sowohl blockt als auch zuschlägt.
+10;Donneraxt;WEAPON;Eine Axt, die bei jedem Schlag leise grollt.
+11;Dolch der Schatten;WEAPON;Ein dunkler Dolch, der fast lautlos durch die Luft schneidet.
+12;Turmschild des Löwen;WEAPON;Ein massives Schild mit dem Emblem eines Löwen.
+13;Lederbeinschienen;ARMOR;Einfache Beinschützer aus gehärtetem Leder.
+14;Stalbeinschienen;ARMOR;Solide Beinschützer aus Stalplatten.
+15;Frostläufer ;ARMOR;Magische Beinschienen, die Kälte abweisen.
+16;Schattenläufer;ARMOR;Leichte, dunkle, Beinschützer, die lautlose Bewegung ermöglichen.
+17;Lederhandschuhe;ARMOR;Einfache Handschule aus robustem Leder.
+18;Stahlhandschuhe;ARMOR;Schwere Handschuhe aus Stahlplatten.
+19;Glutfaust;ARMOR;Magische Handschuhe, die leicht glühen.
+20;Schattenkrallen;ARMOR;Dunkle Handshcuhe mit scharfen, magischen Klingen.
+21;Lederkapuze;ARMOR;Eine einfache Kapuze aus gehärtetem Leder.
+22;Schattenweste;ARMOR;Eine dunkle, leichte Weste, die Geräusche dämpft.
+23;Schattenhaube;ARMOR;Eine Kapuze, die das Gesicht im Dunkeln verschwinden lässt.
+24;Frosthelm;ARMOR;Ein eisiger Helm, der Kälte abwehrt.
+25;Frosthandschuhe;ARMOR;Handschuhe, die sich kalt anfühlen, aber wärmen.
+26;Flammenweste;ARMOR;Eine magische Weste, die Hitze speichert.
+27;Gluthelm;ARMOR;Ein Helm, der leicht glüht.
+28;Flammenbeinschienen;ARMOR;Beinschienen, die Hitze abstrahlen.
+29;Kettenhaube;ARMOR;Eine Haube aus eng verflochtenen Stahlringen.
+30;Kettenhandschuhe;ARMOR;Handschuhe aus feinen Stahlringen.
+31;Kettenbeinschienen;ARMOR;Beinschützer aus Kettengeflecht.
+32;Stahlbrustplatte;ARMOR;Eine schwere Brustplatte aus gehärtetem Stahl.
+33;Stahlhelm;ARMOR;Ein robuster Helm aus massivem Stahl.
+34;Jagdmesser;WEAPON;Ein leichtes Messer, ideal für schnelle Angriffe.
+35;Schattenklinge;WEAPON;Eine dunkle Klinge, die fast mit der Dunkelheit verschmilzt.
+36;Frostklinge;WEAPON;Eine Klinge, die mit einer dünnen Schicht Eis überzogen ist.
+37;Flammenstreitkolben;WEAPON;Ein Streitkolben, dessen Kopf rot glüht.
+38;Streitaxt der Ausgewogenen;WEAPON;Eine robuste Axt, wie sie von Soldaten getragen wird.
+39;Stahlbreitschwert;WEAPON;Ein schweres Schwert aus gehärtetem Stahl.

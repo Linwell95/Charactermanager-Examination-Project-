@@ -1,0 +1,432 @@
+.root {
+	
+	/*Buttons*/
+	-fx-button-hover: #748032;
+	-fx-button-background: #494E28;
+	-fx-button-text: #EBF1C9;
+	-fx-button-text-hover:  #F0F3E0;
+	
+	/*Combo Box*/ /*TODO*/
+	-fx-combo-dropdown-background: #5B6232;
+	-fx-combo-text: #EBF1C9;
+	-fx-combo-text-hover:#F0F3E0;
+
+	/*Box Background*/
+	-fx-background-box: rgba(0,0,0,0.3);
+	
+	/*Window*/
+	-fx-background-window: #1A2422;
+	-fx-window-text: #D5D5D5;
+	
+	/*Cell*/
+	-fx-cell-hover: rgba(98, 130, 128, 0.6);
+	-fx-cell-background: rgba(62, 80, 79, 0.60);
+	-fx-cell-text: #DEE1E5;
+	
+	/*background selected*/
+	-fx-cell-selected: #645B2F;
+	-fx-cell-selected-hover: #897D3F;
+	
+	/*Equipment Slot*/
+	-fx-equipment-background: rgba(101, 101, 101, 0.6);
+	-fx-equipment-border: rgba(255, 255, 255, 0.3);
+		
+	/*Textfield*/
+	-fx-textfield-background: rgba(101, 101, 101, 0.6);
+	-fx-textfield-border: rgba(255, 255, 255, 0.3);
+	
+	-fx-textfield-background-focused: rgba(140, 140, 140, 0.6);
+	
+	
+	
+	-fx-font-size: 14px;
+}
+
+/***************************************************
+    TableView + Row
+***************************************************/
+.table-view {
+    -fx-background-color: -fx-cell-background;
+	-fx-background-radius: 2;
+	
+    -fx-table-cell-border-color: transparent;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: -fx-cell-text;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell {
+    -fx-background-color: transparent;
+}
+
+.table-row-cell:odd {
+	-fx-background-color: rgba(31,31,31,0.25);
+}
+
+.table-row-cell:hover {
+    -fx-background-color: -fx-cell-hover;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: -fx-cell-selected;
+}
+
+.table-row-cell:selected:hover {
+    -fx-background-color: -fx-cell-selected-hover;
+}
+
+
+.table-view .table-cell {
+    -fx-text-fill: -fx-cell-text;
+}
+
+.table-row-cell:selected .table-cell {
+    -fx-text-fill: -fx-cell-text;
+    -fx-border-color: transparent;
+}
+
+.table-view .filler {
+    -fx-background-color: transparent;
+    -fx-size: 0;
+}
+
+/***************************************************
+	Buttons
+***************************************************/
+.button {
+    -fx-background-color: -fx-button-background;
+    -fx-text-fill: -fx-button-text;
+    -fx-background-radius: 2;
+}
+
+.button:hover {
+    -fx-background-color: -fx-button-hover;
+	-fx-text-fill: -fx-button-text-hover;
+}
+
+/***************************************************
+	Combobox
+***************************************************/
+.combo-box {
+	-fx-background-radius: 2;
+	-fx-background-color: -fx-button-background;
+}
+
+.combo-box:hover {
+	-fx-background-color: -fx-button-hover;	
+}
+
+.combo-box .arrow {
+    -fx-background-color: -fx-button-text;
+}
+
+.combo-box:hover .arrow {
+	-fx-background-color: -fx-button-text-hover;
+}
+
+/*angezeigte zelle*/
+.combo-box-base .list-cell {
+	-fx-text-fill: -fx-combo-text;
+	-fx-background-color: transparent;
+}
+
+.combo-box:hover .list-cell {
+	-fx-text-fill: -fx-combo-text-hover;
+}
+
+/*combobox dropdown*/
+.combo-box-popup .list-view {
+	-fx-background-color: -fx-combo-dropdown-background;
+	-fx-background-radius: 4;
+}
+
+.combo-box-popup .list-cell {
+	-fx-background-color: transparent;
+	-fx-text-fill: -fx-combo-text;
+}
+
+.combo-box-popup .list-cell:hover {
+	-fx-background-color: -fx-button-hover;
+	-fx-text-fill: -fx-combo-text-hover;
+}
+/***************************************************
+	Scroll bar
+***************************************************/
+.scroll-bar {
+	-fx-background-color: transparent;
+}
+
+/***************************************************
+	Text field
+***************************************************/
+.text-field {
+	-fx-background-color: -fx-textfield-background;
+	-fx-background-radius: 2;
+	-fx-border-color: -fx-textfield-border;
+	-fx-border-width: 1;
+	-fx-border-radius: 2;
+	-fx-text-fill: white;
+}
+.text-field:hover {
+	
+}
+.text-field:focused {
+	-fx-background-color: -fx-textfield-background-focused;
+}
+
+/***************************************************
+	Spinner
+***************************************************/
+.spinner {
+	-fx-background-color: transparent;
+	-fx-border-color:transparent;
+	-fx-background-insets: 0; 
+}
+
+.spinner:focused {
+    -fx-border-color: transparent;      
+    -fx-focused-color: transparent;     
+    -fx-background-color: transparent; 
+	-fx-background-insets: 0; 
+}
+
+.spinner:focused .text-field:focused {
+	-fx-background-color: -fx-textfield-background-focused;
+}
+
+.spinner .increment-arrow-button, 
+.spinner .decrement-arrow-button {
+    -fx-background-color: transparent;
+}
+
+.spinner .increment-arrow, 
+.spinner .decrement-arrow {
+	-fx-background-color: white;
+}
+
+.spinner .increment-arrow-button:hover .increment-arrow,
+.spinner .decrement-arrow-button:hover .decrement-arrow {
+	-fx-background-color: gray;
+}
+
+/***************************************************
+	Dialog Pane
+***************************************************/
+.dialog-pane {
+	-fx-background-color: -fx-background-window;
+}
+
+.dialog-pane .header-panel {
+	-fx-background-color: -fx-background-box;
+}
+
+.dialog-pane .label {
+	-fx-text-fill: -fx-window-text;
+}
+/***************************************************
+	Custom Label bold
+***************************************************/
+.label-bold {
+	-fx-font-weight: bold;
+}
+
+/***************************************************
+	Character-Stats-View
+***************************************************/
+.character-stats-view {
+	-fx-background-color: transparent;
+	-fx-padding: 30;
+}
+
+.header-box {
+	-fx-background-color: -fx-background-box;
+	-fx-background-radius: 2;
+	-fx-padding: 5;
+}
+
+.header-inner-box {
+	-fx-background-color:-fx-cell-background;
+	-fx-background-radius: 2;
+	-fx-padding: 5;
+}
+
+.header-inner-box .label {
+	-fx-text-fill: -fx-cell-text;
+}
+
+.stats-grid {
+	-fx-background-color: -fx-background-box;
+	-fx-background-radius: 2;
+	-fx-padding: 5;
+}
+
+.inner-stats-grid {
+	-fx-background-color:-fx-cell-background;
+	-fx-background-radius: 2;
+	-fx-padding: 5;
+}
+
+.inner-stats-grid .label {
+	-fx-text-fill: -fx-cell-text;
+}
+
+/***************************************************
+	Character-Equipment-View
+***************************************************/
+.character-equipment-view {
+	-fx-background-color: transparent;
+	-fx-padding: 30;
+}
+
+.slot-pane {
+	-fx-background-color: -fx-equipment-background;
+	-fx-background-radius: 2;
+	-fx-border-color: -fx-equipment-border;
+	-fx-border-radius: 2;
+	-fx-border-width: 3;
+}
+
+
+/***************************************************
+	Item-Shop-Window
+***************************************************/
+.item-shop-window {
+	-fx-background-color: -fx-background-window;
+	-fx-padding: 30;
+}
+
+.item-shop-window .label {
+	-fx-text-fill: -fx-window-text;
+}
+
+/***************************************************
+	Character-List-View
+***************************************************/
+.character-list-view {
+	-fx-background-color: transparent;
+	-fx-padding: 30;
+}
+
+.character-list-view .list-view {
+	-fx-background-color: transparent;
+	-fx-padding: 5;  /*space around all the cells*/
+}
+
+.character-list-view .list-cell {
+	-fx-background-color: transparent;
+	-fx-padding: 1; /*space between the cells*/
+}
+
+.character-list-view-box {
+	-fx-background-color: -fx-background-box;
+	-fx-background-radius: 2;
+}
+
+.character-list-cell {
+	-fx-background-color: -fx-cell-background;
+	-fx-background-radius: 2;
+	-fx-padding: 5;
+}
+
+.character-list-cell .label {
+	-fx-text-fill: -fx-cell-text;
+}
+
+.character-list-cell:hover {
+	-fx-background-color: -fx-cell-hover;
+}
+
+.character-list-view .list-cell:selected .character-list-cell {
+	-fx-background-color: -fx-cell-selected;
+}
+
+.character-list-view .list-cell:selected:hover .character-list-cell {
+	-fx-background-color: -fx-cell-selected-hover;
+}
+
+
+/***************************************************
+	Character-Inventory-View
+***************************************************/
+.character-inventory-view {
+	-fx-background-color: transparent;
+	-fx-padding: 30;
+}
+
+.character-inventory-box {
+	-fx-background-color: -fx-background-box;
+	-fx-padding: 0;
+	-fx-background-radius: 2;
+}
+
+.character-inventory-view .list-view {
+	-fx-background-color: transparent;
+}
+
+.character-inventory-view .list-cell {
+	-fx-background-color: transparent;
+	-fx-padding: 1;
+}
+
+.character-inventory-cell {
+	-fx-background-color: -fx-cell-background;
+	-fx-background-radius: 2;
+	-fx-padding: 5;
+}
+
+.character-inventory-cell .label {
+	-fx-text-fill: -fx-cell-text;
+}
+
+.character-inventory-view .list-cell:hover .character-inventory-cell {
+	-fx-background-color: -fx-cell-hover;
+}
+
+.character-inventory-view .list-cell:selected .character-inventory-cell {
+	-fx-background-color: -fx-cell-selected;
+}
+
+.character-inventory-view .list-cell:selected:hover .character-inventory-cell {
+	-fx-background-color: -fx-cell-selected-hover;
+}
+/***************************************************
+	Character-Creation-Window
+***************************************************/
+.character-creation-window {
+	-fx-background-color: -fx-background-window;
+	-fx-padding: 30;
+}
+
+.character-creation-window .label {
+	-fx-text-fill: -fx-window-text;
+}
+
+.character-creation-window .label-bold {
+	-fx-font-size: 16;
+}
+
+/***************************************************
+	Character-Edit-Window
+***************************************************/
+.character-edit-window {
+	-fx-background-color: -fx-background-window;
+	-fx-padding: 30;
+}
+
+.character-edit-window .label {
+	-fx-text-fill: -fx-window-text;
+}
+
+.character-edit-window .label-bold {
+	-fx-font-size: 16;
+}
